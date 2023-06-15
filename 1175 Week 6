@@ -1,0 +1,77 @@
+using System;
+using static System.Console;
+
+namespace Week6
+{
+    class Week6
+    {
+        static void Main()
+        {
+            int total = 0;
+            int number = 1;
+
+            while (number < 101)
+            {
+                WriteLine("n: " + number);
+                total = total + number;
+                number++;
+
+                WriteLine("Total: "+ total);
+            }
+
+            WriteLine("\nValue of adding 1 through 100 is: " + total);
+        }
+    }
+}
+
+using System;
+using static System.Console;
+
+namespace Week6
+{
+    class Week6
+    {
+        static void Main()
+        {
+            string inValue = "";
+            int sum = 0;
+            int outValue = 0;
+
+            Write("This program will let you enter value after value.");
+            WriteLine("To Stop, enter = -99");
+            while (inValue != "-99")
+            {
+                WriteLine("Enter value (-99 to exit)");
+                inValue = ReadLine();
+                outValue = Convert.ToInt32(inValue);
+                sum += outValue;
+                WriteLine("Sum is: " + sum);
+                
+
+            }
+            ReadKey();
+        }
+
+
+    }
+}
+
+using System;
+using static System.Console;
+
+namespace Week6
+{
+    class Week6
+    {
+        static void Main()
+        {
+            for(int count = 1; count < 11;  count++)
+            {
+                Console.WriteLine("Hello World: " + count);
+            }
+        }
+
+
+    }
+}
+
