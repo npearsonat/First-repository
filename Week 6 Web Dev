@@ -1,0 +1,108 @@
+styles
+
+* {
+    box-sizing: border-box;
+    border: 1px dashed red;
+  }
+  
+  body {
+    background-color: #aaa;
+    margin: 0px 50px 50px;
+  }
+  /* Each item in the grid contains numbers */
+  .item {
+    padding: 2rem;
+    border: 5px solid #87b5ff;
+    border-radius: 3px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1c57b5;
+  }
+  
+  .container {
+    display: flex;
+  /* height: 90vh; */
+  background-color: #f5ca3c;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+  }
+
+  
+/*img {
+    padding: 5px;
+    background-color: aquamarine;
+  }
+
+  .item1 {
+    flex-basis: 50%;
+  }
+  .item2 {
+    flex-basis: 50%;
+  }
+  .item3 {
+    flex-basis: 80%;
+    margin: auto;
+  }
+  .item4 {
+    flex-basis: 100%;
+  }*/
+
+/*  .item1 {
+    order: 3; 
+  }*/
+
+  .item{
+    flex: 1 1 100px;
+  }
+
+  .item2{
+    flex-grow: 2;
+  }
+
+  .item4{
+    flex-shrink: 4;
+  }
+
+  .item1{
+    flex-grow: 0;
+  }
+
+index
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>Flexbox Basics</title>
+       <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+       <div class="container">
+          <div class="item item1">1</div>
+          <div class="item item2">2</div>
+          <div class="item item3">3</div> 
+          <div class="item item4">4</div> 
+
+          <!-- <img src="https://picsum.photos/id/1/80" alt="">
+          <img src="https://picsum.photos/id/20/80" alt="">
+          <img src="https://picsum.photos/id/300/80" alt=""> -->
+       </div>
+      </body>
+      </html
+  </body>
+</html>
+
+  
